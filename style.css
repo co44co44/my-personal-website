@@ -41,7 +41,16 @@ h1 {
     padding: 30px 
     
 }
-
+#button {text-align: center; 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  background-color: rgb(69, 241, 34);
+  
+ 
+}
+#divisionButton {
+  background-color: rgb(226, 114, 243);
+}
 th {
     
     font-family: 'Courier New', Courier, monospace;
