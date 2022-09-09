@@ -5,17 +5,17 @@
         <title>My Personal Website</title>
         <table>
             <tr>
-                <th>Who is Cristy? </th> 
-                <th>Cristy is an Educator </th>
-                <th>Cristy & Coding's love story </th>
-                <th>Cristy's Courses </th>
-                <th>Contact          </th>
+                <th onmouseover="style.color='blue'" onmouseout="style.color='black'">Who is Cristy? </th> 
+                <th onmouseover="style.color='blue'" onmouseout="style.color='black'">Cristy is an Educator </th>
+                <th onmouseover="style.color='blue'" onmouseout="style.color='black'">Cristy & Coding's love story </th>
+                <th onmouseover="style.color='blue'" onmouseout="style.color='black'">Cristy's Courses </th>
+                <th onmouseover="style.color='blue'" onmouseout="style.color='black'">Contact          </th>
             </tr>
         </table>
     </head>
     <body>
         <div id="titlephrasepic">
-        <h1 id="titleCristysCoding">Cristy's Coding 
+        <h1 onmouseover="style.color='blue'" onmouseout="style.color='black'"id="titleCristysCoding">Cristy's Coding 
             <p id="introphrase">Were learning to code is FUN!</p>
         </h1>
         <img id= "crisPicture"
@@ -26,13 +26,20 @@
             height=" 160"
             />
         </div>
+        
         <script src="script.js"></script>
-        <div id="divisionButton">
-            <input id="button" type="button" value="CLICK HERE TO CONTACT US AND JOIN OUR CLASSES TODAY!!"/>
-        </div>
-       
-    
-
+        
+        <button id="button" > CALL US TO 1800-CRISTYCODE, AND SCHEDULE YOU CLASS TODAY!!!"</button> 
+        <p id="demo"></p>
+        <script>
+        document.getElementById("button").addEventListener("click", function() {
+            alert ("Call Now!");
+        });
+            
+        function displayMessage() {
+              document.getElementById("demo").innerHTML = Date();
+            }
+            </script>
         <table>
             <tr>
                 <th>  <img
@@ -69,10 +76,10 @@
             
             <tr>
               <th>    SCHEDULE          </th>
-              <th>ROCKET KIDS (7-9 years old)</th>
-              <th>TEENS FUN (10-13 years old)</th>
-              <th>DREAMERS TEENS ( 14- 18 years old)</th>
-              <th>AMAZING ADULTS ( 18 to 120 years old)</th>
+              <th onmouseover="style.color='blue'" onmouseout="style.color='black'">ROCKET KIDS (7-9 years old)</th>
+              <th onmouseover="style.color='blue'" onmouseout="style.color='black'">TEENS FUN (10-13 years old)</th>
+              <th onmouseover="style.color='blue'" onmouseout="style.color='black'">DREAMERS TEENS ( 14- 18 years old)</th>
+              <th onmouseover="style.color='blue'" onmouseout="style.color='black'">AMAZING ADULTS ( 18 to 120 years old)</th>
             </tr>
             <tr>
               <td>DAYS</td>
